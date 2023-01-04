@@ -1,0 +1,9 @@
+/* persian fonts  */
+@font-face {
+  font-family: "pinar";
+  src: url("/public/fonts/Pinar-DS1-FD.woff") format("woff");
+}
+@font-face {
+  font-family: "estedad";
+  src: url("/public/fonts/Estedad-VF-FD.woff2") format("woff2-variations");
+}

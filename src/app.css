@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "estedad" !important;
+  font-weight: 300;
+  direction: rtl;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
