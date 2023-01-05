@@ -46,13 +46,7 @@ nav {
   }
 
   .nav-call-btn-parent {
-    margin-right: 65px !important;
-    padding: 8px 30px;
-    border-radius: 50px;
-    color: #fff;
-    background-color: #00a65c;
-    transition: all 0.1s;
-    font-size: 16px !important;
+    margin-right: 60px !important;
   }
 
   .nav-call-btn-parent:hover {

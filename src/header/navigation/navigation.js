@@ -41,7 +41,7 @@ export default function Navigation() {
               نظرات مشتریان
             </a>
           </li>
-          <li className="nav-call-btn-parent">
+          <li className="nav-call-btn-parent green-btn">
             <a href="https://reactjs.org/" className="nav-link">
               <FontAwesomeIcon icon={solid.faPhone} className="nav-call-icon" />
               تماس

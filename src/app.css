@@ -11,7 +11,74 @@ a {
   cursor: pointer;
 }
 
+p {
+  font-variation-settings: "wght" 200;
+}
+
 body {
   height: 100vh;
   position: relative;
+}
+
+.container-max-width {
+  max-width: 720px;
+  margin: auto;
+}
+
+.page-default-padding {
+  padding: 15px 15px;
+}
+
+.green-btn,
+.bordered-btn {
+  padding: 5px 32px;
+  border-radius: 50px;
+  transition: all 0.1s;
+  font-size: 16px !important;
+}
+
+.green-btn {
+  color: #fff;
+  background-color: #00a65c;
+}
+
+.green-btn:hover {
+  background-color: #44bf8d;
+}
+
+.bordered-btn {
+  color: #558b95;
+  outline: 2px solid #558b95;
+  padding: 4px 32px !important;
+}
+.bordered-btn:hover {
+  color: #003379;
+  outline: 2px solid #003379;
+}
+@media screen and (min-width: 576px) {
+  .container-max-width {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-max-width {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .page-default-padding {
+    padding: inherit 25px;
+  }
+
+  .container-max-width {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-max-width {
+    max-width: 1140px;
+  }
 }
