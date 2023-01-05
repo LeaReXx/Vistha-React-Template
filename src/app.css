@@ -18,6 +18,9 @@ p {
 body {
   height: 100vh;
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 .container-max-width {
