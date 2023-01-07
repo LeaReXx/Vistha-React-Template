@@ -1,5 +1,5 @@
 .about-section {
-  margin: 45rem auto !important;
+  margin: 45rem auto 0 auto !important;
   padding: 50px 0;
   background-color: rgba(182, 178, 255, 0.22);
 }
@@ -38,13 +38,13 @@
 
 @media screen and (min-width: 768px) {
   .about-section {
-    margin: 55rem auto !important;
+    margin: 55rem auto 0 auto !important;
   }
 }
 
 @media screen and (min-width: 991px) {
   .about-section {
-    margin: 23rem auto !important;
+    margin: 23rem auto 0 auto !important;
   }
 
   .about-section > div {
@@ -66,12 +66,12 @@
 
 @media screen and (min-width: 1200px) {
   .about-section {
-    margin: 20rem auto !important;
+    margin: 20rem auto 0 auto !important;
   }
 }
 
 @media screen and (min-width: 1600px) {
   .about-section {
-    margin: 23rem auto !important;
+    margin: 23rem auto 0 auto !important;
   }
 }
