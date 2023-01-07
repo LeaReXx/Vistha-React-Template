@@ -1,0 +1,62 @@
+.about-section {
+  margin: 45rem auto !important;
+  padding: 50px 0;
+  background-color: rgba(182, 178, 255, 0.22);
+}
+
+.about-section-left {
+  display: none;
+}
+
+.about-section-left img {
+  width: 80%;
+}
+
+.about-title {
+  font-family: "pinar" !important;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #003379;
+}
+
+.about-span {
+  font-size: 18px;
+}
+
+.about-decription {
+  margin-top: 0.75rem;
+}
+
+.about-btn-parent {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.about-btn-parent button svg {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    margin: 55rem auto !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .about-section {
+    margin: 23rem auto !important;
+  }
+
+  .about-section > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-section-left,
+  .about-section-right {
+    width: 50% !important;
+  }
+
+  .about-section-left {
+    display: block;
+  }
+}

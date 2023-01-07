@@ -10,8 +10,11 @@ a {
   all: unset;
   cursor: pointer;
 }
-
-p {
+button {
+  all: unset;
+}
+p,
+span {
   font-variation-settings: "wght" 200;
 }
 
@@ -34,7 +37,9 @@ body {
 
 .green-btn,
 .bordered-btn {
-  padding: 5px 32px;
+  all: unset;
+  cursor: pointer;
+  padding: 3px 25px;
   border-radius: 50px;
   transition: all 0.1s;
   font-size: 16px !important;
@@ -52,7 +57,7 @@ body {
 .bordered-btn {
   color: #558b95;
   outline: 2px solid #558b95;
-  padding: 4px 32px !important;
+  padding: 1px 25px !important;
 }
 .bordered-btn:hover {
   color: #003379;
