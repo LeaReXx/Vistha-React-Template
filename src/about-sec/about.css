@@ -59,6 +59,9 @@
   .about-section-left {
     display: block;
   }
+  .about-btn-parent {
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 1200px) {
