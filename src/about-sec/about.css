@@ -60,3 +60,15 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .about-section {
+    margin: 20rem auto !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about-section {
+    margin: 23rem auto !important;
+  }
+}
