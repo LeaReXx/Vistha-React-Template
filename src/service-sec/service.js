@@ -1,7 +1,7 @@
 import React from "react";
-
 import ServiceBox from "./service-box";
 import "./service.css";
+
 export default function Service() {
   let serviceArray = [
     {
@@ -36,22 +36,24 @@ export default function Service() {
     },
   ];
   return (
-    <section className="service-section container-max-width page-default-padding">
-      <div className="service-header">
-        <span>شرکت ویستا</span>
-        <h2>لورم ایپسوم</h2>
-        <p>
-          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
-          از طراحان گرافیک است
-        </p>
-      </div>
-      <div className="service-details">
-        <ServiceBox {...serviceArray[0]}/>
-        <ServiceBox {...serviceArray[1]}/>
-        <ServiceBox {...serviceArray[2]}/>
-        <ServiceBox {...serviceArray[3]}/>
-        <ServiceBox {...serviceArray[4]}/>
-        <ServiceBox {...serviceArray[5]}/>
+    <section className="service-section">
+      <div className="container-max-width page-default-padding">
+        <div className="service-header">
+          <span>شرکت ویستا</span>
+          <h2>لورم ایپسوم</h2>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+        <div className="service-details">
+          <ServiceBox {...serviceArray[0]} />
+          <ServiceBox {...serviceArray[1]} />
+          <ServiceBox {...serviceArray[2]} />
+          <ServiceBox {...serviceArray[3]} />
+          <ServiceBox {...serviceArray[4]} />
+          <ServiceBox {...serviceArray[5]} />
+        </div>
       </div>
     </section>
   );

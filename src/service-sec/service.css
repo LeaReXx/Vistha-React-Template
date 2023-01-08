@@ -1,7 +1,6 @@
 .service-section {
-  padding-top: 4rem;
+  margin-top: 2rem;
 }
-
 .service-details {
   margin-top: 2rem;
 }
@@ -72,6 +71,9 @@
 }
 
 @media screen and (min-width: 991px) {
+  .service-section {
+    margin-top: 3rem;
+  }
   .service-box {
     width: 27%;
   }
