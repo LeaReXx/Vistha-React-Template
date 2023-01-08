@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as solid from "@fortawesome/free-solid-svg-icons";
 import "./service.css";
 
-export default function ServiceBox(props) {
-  let { icons, title, description } = props;
+export default function ServiceBox({icon, title, description}) {
 
   return (
     <div className="service-box">
