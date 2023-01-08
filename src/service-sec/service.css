@@ -1,0 +1,78 @@
+.service-section {
+  padding-top: 4rem;
+}
+
+.service-details {
+  margin-top: 2rem;
+}
+
+.service-box {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px 0;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.service-box:hover {
+  background-color: rgba(0, 166, 92, 1);
+  background-image: url(/public/imgs/service-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #fff !important;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.service-box:hover h4 {
+  color: #fff;
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+
+.service-box:hover .service-box-icon {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+.service-box:hover .service-box-description {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+.service-box-icon {
+  color: #00a65c;
+  font-size: 40px;
+}
+
+.service-box-title h4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "pinar" !important;
+}
+
+@media screen and (min-width: 767px) {
+  .service-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+  }
+  .service-box {
+    width: 42%;
+    margin: unset;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .service-box {
+    width: 27%;
+  }
+}

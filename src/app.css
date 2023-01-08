@@ -10,12 +10,35 @@ a {
   all: unset;
   cursor: pointer;
 }
+
 button {
   all: unset;
 }
+
 p,
 span {
+  margin-top: 0.75rem;
   font-variation-settings: "wght" 200;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "pinar" !important;
+  color: #003379;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+span {
+  font-size: 18px;
 }
 
 body {

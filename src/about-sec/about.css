@@ -12,21 +12,6 @@
   width: 80%;
 }
 
-.about-title {
-  font-family: "pinar" !important;
-  font-size: 40px;
-  line-height: 1.4;
-  color: #003379;
-}
-
-.about-span {
-  font-size: 18px;
-}
-
-.about-decription {
-  margin-top: 0.75rem;
-}
-
 .about-btn-parent {
   text-align: center;
   margin-top: 1rem;
