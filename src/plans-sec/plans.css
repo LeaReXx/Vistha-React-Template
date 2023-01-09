@@ -1,0 +1,89 @@
+.plans-section {
+  max-width: 576px;
+  margin: 2rem auto;
+}
+.plans-header {
+  text-align: center;
+}
+
+.plans-header p {
+  text-align: right;
+}
+
+.plans-detail {
+  margin-top: 2.5rem;
+}
+
+.plans-box {
+  background-color: #f8f8f8;
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px 0;
+  margin-bottom: 2rem;
+}
+
+.plans-box:nth-child(2) {
+  background-color: #003379;
+  color: #fff;
+}
+
+.plans-box:nth-child(2) .plans-box-icon {
+  color: #fff;
+}
+
+.plans-box-icon {
+  font-size: 45px;
+  color: #00a65c;
+}
+
+.plans-box-price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.plans-box-options {
+  margin-top: 1rem;
+}
+
+.plans-box-options ul li {
+  margin: unset;
+  font-variation-settings: "wght" 200;
+}
+
+.plans-box-btn {
+  margin-top: 1rem;
+}
+
+.plans-box:nth-child(2) .plans-box-btn button {
+  color: #fff;
+  background-color: #00a65c;
+  outline: none;
+}
+
+.plans-box:nth-child(2) .plans-box-btn button:hover {
+  background-color: #44bf8d;
+}
+
+@media screen and (min-width: 991px) {
+  .plans-section {
+    max-width: unset;
+  }
+
+  .plans-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .plans-header p {
+    text-align: center;
+  }
+
+  .plans-box {
+    width: 30%;
+  }
+  .plans-box:nth-child(2) {
+    transform: scale(1.04);
+  }
+}
