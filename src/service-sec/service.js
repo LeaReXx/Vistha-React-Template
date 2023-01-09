@@ -47,7 +47,7 @@ export default function Service() {
           </p>
         </div>
         <div className="service-details">
-          <ServiceBox {...serviceArray[0]} />
+          <ServiceBox {...serviceArray[0]}/>
           <ServiceBox {...serviceArray[1]} />
           <ServiceBox {...serviceArray[2]} />
           <ServiceBox {...serviceArray[3]} />
