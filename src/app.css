@@ -54,6 +54,10 @@ body {
   -moz-user-select: none;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .container-max-width {
   max-width: 720px;
   margin: auto;

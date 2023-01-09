@@ -13,9 +13,30 @@ export default function Plans() {
           </p>
         </div>
         <div className="plans-detail">
-          <PlansBox price="0" />
-          <PlansBox price="3" />
-          <PlansBox price="1" />
+          <PlansBox price="0">
+            <ul>
+              <li>طراحی سایت با قالب آماده</li>
+              <li className="line-through">پشتیبانی 24 ساعته</li>
+              <li className="line-through">دیزاین اختصاصی </li>
+              <li className="line-through">جلسه حضوری</li>
+            </ul>
+          </PlansBox>
+          <PlansBox price="3">
+            <ul>
+              <li>طراحی سایت با قالب آماده</li>
+              <li>پشتیبانی 24 ساعته</li>
+              <li>دیزاین اختصاصی </li>
+              <li>جلسه حضوری</li>
+            </ul>
+          </PlansBox>
+          <PlansBox price="1">
+            <ul>
+              <li>طراحی سایت با قالب آماده</li>
+              <li>پشتیبانی 24 ساعته</li>
+              <li>دیزاین اختصاصی </li>
+              <li className="line-through">جلسه حضوری</li>
+            </ul>
+          </PlansBox>
         </div>
       </div>
     </section>
