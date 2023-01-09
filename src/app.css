@@ -30,6 +30,11 @@ h6 {
   color: #003379;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 h1,
 h2,
 h3 {
