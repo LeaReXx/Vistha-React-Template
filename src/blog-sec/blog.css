@@ -1,0 +1,90 @@
+.blog-section {
+  padding: 2rem 0;
+  background-color: #fcfcfc;
+}
+
+.blog-section-box {
+  margin: 2rem auto;
+  display: block;
+  overflow: hidden;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.blog-section-box:hover {
+  -webkit-box-shadow: 0 0px 17px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 17px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  transform: translateY(-5px);
+}
+
+.blog-box-img img {
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.blog-section-box:hover .blog-box-img img {
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  transform: scale(1.1) rotate(2deg);
+}
+.blog-box-img {
+  overflow: hidden;
+}
+
+.blog-box-img img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.blog-box-details {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.blog-box-other-details {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-box-date,
+.blog-box-category {
+  font-size: 15px;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.blog-box-date-icon {
+  padding: 0 5px 0 0;
+}
+
+.blog-box-date {
+  background-color: rgba(0, 166, 92, 0.15);
+  color: #00a65c;
+  border: 1px solid #00a65c;
+}
+
+.blog-box-category {
+  background-color: rgba(0, 51, 121, 0.15);
+  color: #003379;
+  border: 1px solid #003379;
+}
+
+@media screen and (min-width: 991px) {
+  .blog-section-boxs-parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-section-box {
+    width: 32%;
+  }
+}
