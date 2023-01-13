@@ -92,7 +92,7 @@ export default class Customers extends Component {
                     <FontAwesomeIcon
                       icon={solid.faUserNinja}
                       className="customer-icon"
-                    />{" "}
+                    />
                     لورم اپسیوم
                   </span>
                 </div>
