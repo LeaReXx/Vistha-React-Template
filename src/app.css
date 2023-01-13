@@ -59,7 +59,7 @@ body {
 }
 
 .container-max-width {
-  max-width: 720px;
+  max-width: 720px !important;
   margin: auto;
 }
 
@@ -97,28 +97,28 @@ body {
 }
 @media screen and (min-width: 576px) {
   .container-max-width {
-    max-width: 540px;
+    max-width: 540px !important;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container-max-width {
-    max-width: 720px;
+    max-width: 720px !important;
   }
 }
 
 @media screen and (min-width: 991px) {
   .page-default-padding {
-    padding: inherit 25px;
+    padding: inherit 25px !important;
   }
 
   .container-max-width {
-    max-width: 960px;
+    max-width: 960px !important;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container-max-width {
-    max-width: 1140px;
+    max-width: 1140px !important;
   }
 }
