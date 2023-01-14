@@ -6,6 +6,7 @@ import Plans from "./plans-sec/plans";
 import Blog from "./blog-sec/blog";
 import Customers from "./customers-sec/customers";
 import Contact from "./contact-sec/contact";
+import Footer from "./footer/footer";
 import "./app.css";
 import "./fonts.css";
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Blog />
       <Customers />
       <Contact />
+      <Footer />
     </div>
   );
 }
