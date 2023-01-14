@@ -5,6 +5,7 @@ import Service from "./service-sec/service";
 import Plans from "./plans-sec/plans";
 import Blog from "./blog-sec/blog";
 import Customers from "./customers-sec/customers";
+import Contact from "./contact-sec/contact";
 import "./app.css";
 import "./fonts.css";
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Plans />
       <Blog />
       <Customers />
+      <Contact />
     </div>
   );
 }
