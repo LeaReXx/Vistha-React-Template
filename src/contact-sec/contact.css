@@ -3,6 +3,9 @@
 }
 
 .contact-parts {
+  margin: 2rem auto;
+}
+.contact-parts {
   display: flex;
   flex-direction: column-reverse;
 }
