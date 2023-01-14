@@ -3,7 +3,7 @@ import "./contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact-section">
+    <section className="contact-section">
       <div className="container-max-width page-default-padding">
         <div className="contact-parts">
           <div className="contact-right-box">
@@ -39,6 +39,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
