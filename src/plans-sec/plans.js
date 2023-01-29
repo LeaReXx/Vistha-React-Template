@@ -13,7 +13,7 @@ export default function Plans() {
           </p>
         </div>
         <div className="plans-detail">
-          <PlansBox price="0">
+          <PlansBox price="0" icon='fa-solid fa-plane'>
             <ul>
               <li>طراحی سایت با قالب آماده</li>
               <li className="line-through">پشتیبانی 24 ساعته</li>
@@ -21,7 +21,7 @@ export default function Plans() {
               <li className="line-through">جلسه حضوری</li>
             </ul>
           </PlansBox>
-          <PlansBox price="3">
+          <PlansBox price="3" icon='fa-solid fa-credit-card'>
             <ul>
               <li>طراحی سایت با قالب آماده</li>
               <li>پشتیبانی 24 ساعته</li>
@@ -29,7 +29,7 @@ export default function Plans() {
               <li>جلسه حضوری</li>
             </ul>
           </PlansBox>
-          <PlansBox price="1">
+          <PlansBox price="1" icon='fa-solid fa-car'>
             <ul>
               <li>طراحی سایت با قالب آماده</li>
               <li>پشتیبانی 24 ساعته</li>
