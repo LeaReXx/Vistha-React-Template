@@ -1,36 +1,42 @@
 import React from "react";
-import ServiceBox from "./service-box";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./service.css";
 
 export default function Service() {
   let serviceArray = [
     {
-      icon: "faMugHot",
+      id: 1,
+      icon: "fa-solid fa-shield",
       title: "طراحی سایت",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
     {
-      icon: "faMobileScreenButton",
+      id: 2,
+      icon: "fa-solid fa-plane",
       title: "برنامه نویسی موبایل",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
     {
-      icon: "faPaperPlane",
+      id: 3,
+      icon: "fa-solid fa-phone",
       title: "خدمات رزرواسیون",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
     {
-      icon: "faCartShopping",
+      id: 4,
+      icon: "fa-solid fa-dollar-sign",
       title: "خدمات تجاری",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
     {
-      icon: "faShield",
+      id: 5,
+      icon: "fa-solid fa-credit-card",
       title: "پشتیبانی درجه اول",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
     {
-      icon: "faCloud",
+      id: 6,
+      icon: "fa-solid fa-sim-card",
       title: "فناوری ابری",
       description: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
     },
@@ -47,12 +53,23 @@ export default function Service() {
           </p>
         </div>
         <div className="service-details">
-          <ServiceBox {...serviceArray[0]}/>
-          <ServiceBox {...serviceArray[1]} />
-          <ServiceBox {...serviceArray[2]} />
-          <ServiceBox {...serviceArray[3]} />
-          <ServiceBox {...serviceArray[4]} />
-          <ServiceBox {...serviceArray[5]} />
+          {serviceArray.map((item) => {
+            return (
+              <div className="service-box" key={item.id}>
+                <div className="service-box-details">
+                  <div className="service-box-icon">
+                    <FontAwesomeIcon icon={item.icon} fixedWidth />
+                  </div>
+                  <div className="service-box-title">
+                    <h4>{item.title}</h4>
+                  </div>
+                  <div className="service-box-description">
+                    <p>{item.description}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

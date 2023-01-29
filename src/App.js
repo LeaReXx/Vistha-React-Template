@@ -1,4 +1,8 @@
 import React from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+// import { faFontAwesome } from "@fortawesome/free-brands-svg-icons";
+
 import Header from "./header/header";
 import About from "./about-sec/about";
 import Service from "./service-sec/service";
@@ -9,6 +13,8 @@ import Contact from "./contact-sec/contact";
 import Footer from "./footer/footer";
 import "./app.css";
 import "./fonts.css";
+library.add(fas);
+
 function App() {
   return (
     <div>
