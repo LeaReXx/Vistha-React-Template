@@ -9,9 +9,40 @@
   opacity: 0.8;
   cursor: pointer;
 }
-
 nav {
-  display: none;
+  position: fixed;
+  transition: all 0.2s ease;
+  transform: translateX(350px);
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 230px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 6px, rgba(0, 0, 0, 0.2) 0px 3px 6px;
+  padding: 20px;
+}
+
+nav.active {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+nav li {
+  padding: 5px 10px;
+}
+
+nav .nav-call-btn-parent {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+}
+
+nav.active .nav-call-btn-parent .nav-call-icon {
+  margin: 0 5px;
 }
 
 .nav-link-parent li {
@@ -27,11 +58,25 @@ nav {
 
 @media screen and (min-width: 991px) {
   nav {
+    all: unset;
     display: flex;
     align-items: center;
     font-family: "dana";
   }
+  nav.active {
+    all: unset;
+  }
+  nav li {
+    all: unset;
+  }
 
+  nav .nav-call-btn-parent {
+    margin: unset;
+  }
+
+  nav.active .nav-call-btn-parent .nav-call-icon {
+    all: unset;
+  }
   .mobile-btn {
     display: none;
   }
